@@ -27,6 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #local
     'pages.apps.PagesConfig',
+    'transactions.apps.TransactionsConfig',
+    'blocks.apps.BlocksConfig',
 ]
 
 MIDDLEWARE = [
